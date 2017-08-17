@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: my_docstring
+# key: myds
+# group : control structure
+# --
+\"\"\"${1:doc_string}
+
+$0
+
+Example:
+
+Attributes:
+
+Todo:
+
+\"\"\"

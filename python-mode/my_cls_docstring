@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: my_class
+# key: mycls
+# group: object oriented
+# --
+class ${1:class}(object):
+    \"\"\"$2
+
+    Notes:
+
+    Attributes:
+        
+    \"\"\"
+    def __init__(self$3):
+        \"\"\"$4
+        ${3:$(python-args-to-docstring-google)}
+        \"\"\"
+        $0
